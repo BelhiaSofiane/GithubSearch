@@ -1,0 +1,92 @@
+#root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+.search-field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.search-field>input {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 2rem;
+}
+
+.search-field>button {
+  width: fit-content;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 2rem;
+  cursor: pointer;
+}
+
+.search-field>button:hover {
+  background-color: #ccc;
+}
+
+.search-field>p {
+  border-bottom: #ccc 1px solid;
+  width: fit-content;
+  margin: 0 auto;
+  padding: 0.5rem;
+}
+
+
+.result-item {
+  width: 400px;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 2rem;
+}
+
+.result-item>img {
+  border-radius: 50%;
+  object-fit: cover;
+  position: absolute;
+}
+
+.result-item > a {
+  margin: auto;
+  text-decoration: none;
+  color: black;
+}
+
+/* pagination */
+.pagination {
+  list-style: none;
+  gap: 1rem;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pagination>li {
+  cursor: pointer;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 2rem;
+}
+
+
+.pagination>.previous:hover,
+.pagination>.next:hover {
+  background-color: #ccc;
+}
+
+.active {
+  background-color: #ccc;
+  border-radius: 50%;
+}
