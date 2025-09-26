@@ -1,4 +1,4 @@
-# GitHub User Search — Frontend (React)
+# GitHub User Search — Frontend (React) - Interview Prep
 
 **Project:** A small junior-friendly React app that searches GitHub users using the GitHub Search API and demonstrates pagination, loading states, error handling, retry with exponential backoff, and basic accessibility.
 
